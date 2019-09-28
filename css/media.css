@@ -1,0 +1,261 @@
+@media (max-width: 1200px) {
+#situation {
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3)), url(../img/section-3.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#situation:before {
+    content: "";
+    left: 0;
+    right: 0;
+    background: #000;
+    z-index: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.6;
+    -webkit-transform: none;
+    transform: none;
+    position: absolute;
+    top: 0;
+}
+#banner {
+	height: 650px;
+}
+#header {
+	display: block;
+}
+.header-mb {
+    display: block;
+}
+.home-nav-container {
+	display: none;
+}
+
+.car-bottom-item {
+	align-items: flex-end;
+	padding: 10px;
+}
+.car-bottom-item .car-button {
+	width: 160px;
+}
+.car-slider {
+	width: 100%;
+	margin-left: 0;
+}
+.car-top {
+	height: 270px;
+}
+.car-top .title:before {
+	left: 0px;
+    right: 0px;
+}
+.car-top .title {
+	    font-size: 14px;
+    right: 10px;
+    bottom: 0px;
+    padding: 15px 10px;
+}
+.slider-arrow-item--prev {
+    left: -30px;
+}
+.slider-arrow-item--next {
+    right: 0px;
+}
+.contacts-item h2.title,
+.social .title {
+	font-size: 26px;
+}
+.specification-item__title {
+	font-size: 12px;
+}
+}
+
+@media (max-width: 992px) {
+
+#banner {
+	height: auto;
+}
+#advantages .container img {
+    width: 100%;
+}
+
+}
+
+@media (max-width: 768px) {	
+	#banner {
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+.specification-item__title {
+	font-size: 13px;
+}
+.car-top {
+	height: 250px;
+}
+.situation-item h2:after,
+#popular .section-description__title:after {
+	right: 0;
+}
+.advantages-item__description {
+	padding: 25px;
+}
+#advantages .container img {
+	display: none;
+}
+
+.car-card {
+    box-shadow: 0px 20px 15px -15px rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.car-top .title:before {
+	left: 0px;
+    right: 0px;
+}
+
+.car-top .title {
+    font-size: 13px;
+    right: 10px;
+    bottom: 0;
+    padding: 12px 8px;
+}
+
+.car-top {
+	min-width: inherit;
+}
+
+.social .title {
+	font-size: 20px;
+}
+#popular .slider-arrow {
+	top: 45%;
+}
+.slider-arrow-item--prev {
+    left: 10px;
+}
+.slider-arrow-item--next {
+    right: 35px;
+}
+#situation {
+		background: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3)), url(../img/section-3.jpg) no-repeat center top;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 480px) {
+#situation {
+		background: linear-gradient(to bottom,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3)), url(../img/section-3.jpg) no-repeat center top;
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+
+	.car-bottom-item .car-button {
+		width: 150px;
+		font-size: 14px;
+	}
+.car-bottom-item .info__logo {
+	width: 50px;
+}
+.car-bottom-item .info-value .price {
+	font-size: 14px;
+}
+.car-bottom-item .title {
+	font-size: 13px;
+	margin-right: 5px;
+}
+.specification-item__title {
+
+	font-size: 12px;
+}
+.car-top {
+	height: 250px;
+}
+.car-top-specification {
+	padding: 25px 15px 70px;
+}
+.situation-item h2,
+#popular .section-description__title {
+	font-size: 20px;
+	line-height: 1.2;
+}
+.situation-item h2:after, #popular .section-description__title:after {
+    top: 10px;
+	right: -70px;
+}
+.car-card {
+    box-shadow: 0px 20px 15px -15px rgba(0, 0, 0, 0.6);
+}
+
+#popular {
+	padding: 40px 0 0;
+}
+
+#banner {
+    animation: none;
+}
+.banner-item__title {
+	font-size: 20px;
+}
+.banner-item__subtitle {
+	font-size: 14px;
+}
+.banner-form strong {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+input, textarea, select {
+	padding: 15px 20px;
+}
+#banner button {
+	width: 100%;
+}
+
+#footer:before {
+	display: none;
+}
+.car-top .title:before {
+	left: 0px;
+    right: 0px;
+}
+.car-top .title {
+	    font-size: 14px;
+    right: 20px;
+    bottom: 0px;
+    padding: 15px 10px;
+}
+}
+
+@media (max-width: 375px) {
+.car-bottom-item .car-button {
+	width: 160px;
+	font-size: 14px;
+}
+.car-top .title {
+    font-size: 13px;
+    right: 70px;
+    bottom: -10px;
+    padding: 12px 8px;
+}
+}
+
+@media (max-width: 320px) {
+
+}
+
+@media (min-width: 576px) {
+.car-bottom {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.order-sm-1 {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+}
+
+}

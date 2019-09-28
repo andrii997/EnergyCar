@@ -1,0 +1,145 @@
+* {
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0;
+	color: #fff;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+	margin-bottom: 0;
+}
+html {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+body {
+	background: #fff;
+	overflow-x: hidden;
+	font-family: OpenSans;
+}
+
+/* Шрифты */
+
+@font-face {
+ font-family: OpenSans;
+ src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+ font-family: OpenSans-Bold;
+ src: url(fonts/OpenSans-Bold.ttf);
+}
+
+section {
+	padding: 100px 0;
+}
+
+
+/* Typography */
+
+h1 {
+	font-size: 96px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 72px;
+	font-weight: bold;
+}
+
+.title {
+	font-size: 36px;
+	color: #000;
+}
+
+.subtitle {
+	font-size: 22px;
+	color: #6C91B1;
+	margin-bottom: 60px;
+}
+
+p {
+	font-size: 16px;
+	color: #fff;
+	line-height: 150%;
+}
+
+
+/* Buttons */
+
+a.button {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+text-decoration: none;
+background: #4169E1;
+border-radius: 7px;
+padding: 16px 42px;
+display: inline-block;
+}
+
+/* Section */
+
+.section {
+	margin-bottom: 200px;
+	padding-top: 100px;
+}
+
+@media (max-width: 768px) {
+
+ h1 {
+ 	font-size: 64px;
+ }
+
+ h2 {
+ 	font-size: 48px;
+ }
+
+ .title {
+ 	font-size: 24px;
+ }
+
+ .subtitle {
+ 	font-size: 18px;
+ 	margin-bottom: 30px;
+ }
+
+ p {
+ 	font-size: 14px;
+ }
+
+ a.button {
+ 	font-size: 14px;
+ }
+ a.button-send {
+	padding: 6px 40px;
+}
+
+}
+
+.custom-list li {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 40px;
+
+font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.custom-list li:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 15px;
+    height: 20px;
+    background: #000;
+    -webkit-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
